@@ -1,0 +1,138 @@
+.schedulescreen{
+    height: 100%;
+    background-image: url('http://74.208.30.241:9199/spoon-assets/background.png');
+    background-size: cover;
+}
+
+.scheduledash{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scheduledash p{
+    color: white;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+.dashboard{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.map{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    background-image: url('http://74.208.30.241:9199/spoon-assets/mapa.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    transition: 0.3s;
+}
+
+.map:hover{
+    width: 82%;
+    height: 62%;
+    margin: auto;
+    background-image: url('http://74.208.30.241:9199/spoon-assets/mapa.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    transition: 0.3s;
+}
+
+.zones{
+    grid-row: 2;
+    width: 60%;
+    height: 100%;
+}
+
+.first{
+    position: absolute;
+    left: 40%;
+}
+
+.second{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+.third{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+
+.fourth{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+
+.zonedetail{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.zonedetail img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.zoneinfo{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.zoneinfodetail{
+    height: 100%;
+    width: 100%;
+}
+
+.zoneinfodetail p{
+    text-align: justify;
+    margin: 20px;
+}
+
+#title{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.zoneactions{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#status{
+    color: green;
+    font-weight: bold;
+}

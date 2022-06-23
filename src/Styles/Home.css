@@ -1,0 +1,92 @@
+.homescreen{
+    height: 100%;
+    background-image: url('http://74.208.30.241:9199/spoon-assets/background.png');
+    background-size: cover;
+}
+
+
+.home-batch{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.home-title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.home-detail{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 40%, 60%;
+    transition: 0.3s;
+}
+
+.home-detail:hover{
+    width: 83%;
+    height: 73%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 40%, 60%;
+    transition: 0.3s;
+}
+
+.home-button{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.home-text{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: justify;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-modal{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+.home-modal span{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.home-modals-input{
+    height: 70%;
+}
+
+.home-modal-buttons{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

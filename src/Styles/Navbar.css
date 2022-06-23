@@ -1,0 +1,12 @@
+.navbar{
+    height: 10%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.menu{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
